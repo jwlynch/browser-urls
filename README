@@ -1,0 +1,31 @@
+Hi, this is me trying to move my browser setup from kde
+to i3.
+
+What you'll find here:
+
+ - urls is a text file with urls, one per line,
+   divided into sections with a blank line
+
+   The format of urls, is that each section has several
+   urls, and the end of a section is marked by a blank
+   line.
+
+   example,
+
+   url
+   url
+   url
+
+   url
+   url
+   url
+   url
+
+   url
+   url
+
+ - browse-urls.py is a python script that reads urls and
+   outputs firefox commands to load each url into either
+   a browser window or a browser tab.
+
+ - README is the file you're now looking at.
